@@ -1,5 +1,6 @@
 from HTMLParser import HTMLParser
 import requests
+import sys
 
 class LinkFinder(HTMLParser):
 	def __init__(self):
@@ -27,5 +28,10 @@ def mapSite(base, current_page, visited, site_map ):
 	return site_map
 
 if __name__ == '__main__':
-	site_map = mapSite('http://thought.so/','http://thought.so/', [], {}, )
-
+	url = sys.argv[1]
+	try:
+		r = requests.get(url)
+	except Exception:
+		print 'that does not seem to be a valid address'
+		sys.exit()
+	site_map = mapSite(url,url, [], {}, )
