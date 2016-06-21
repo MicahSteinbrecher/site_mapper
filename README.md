@@ -1,12 +1,15 @@
 # a simple python site mapper
 
-Notes on usage:
-To run this program locally, you will need to install Python Requests.
-In your python terminal run:  <br />
-$ pip install requests
 
-Instruction for installing pip here:
-http://docs.python-guide.org/en/latest/starting/installation/
+To run this program locally, you should set up a virtual python environement.<br  />
+Instructions for doing so can be found here: http://docs.python-guide.org/en/latest/dev/virtualenvs/
+To set up a virtual environement and download dependencies, you should have pip installed: https://pip.pypa.io/en/stable/installing/
 
-Usage:  <br />
+
+
+set up dependencies by running:  <br />
+$ pip install -r requirements.txt
+
+
+Program Usage:  <br />
 $ python crawler.py <start_url>
