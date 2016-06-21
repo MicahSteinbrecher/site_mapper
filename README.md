@@ -12,4 +12,4 @@ $ pip install -r requirements.txt
 
 
 Program Usage:  <br />
-$ python crawler.py <start_url>
+$ python crawler.py \<start_url>
