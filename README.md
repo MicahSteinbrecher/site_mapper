@@ -8,5 +8,5 @@ $ pip install requests
 Instruction for installing pip here:
 http://docs.python-guide.org/en/latest/starting/installation/
 
-Usage: \n
+Usage: 
 $ python crawler.py <start_url>
