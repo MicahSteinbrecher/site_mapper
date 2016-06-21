@@ -1,4 +1,4 @@
-# a simple python site mapper
+# A simple python site mapper
 
 
 To run this program locally, you should set up a virtual python environement.<br  />
